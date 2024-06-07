@@ -9,7 +9,7 @@
 # snapshot             Install vanilla first
 
 # Ngrok region
-# Code           Place
+# Code           Place111
 #-----------     ---------------------------
 # ap	          Asia/Pacific (Singapore)
 # au		  Australia (Sydney)
@@ -31,7 +31,7 @@ if not os.path.exists("./.gitignore"):
 	big = "L3dvcmtfYXJlYQ0KL3NlcnZpZG9yX21pbmVjcmFmdA0KL21pbmVjcmFmdF9zZXJ2ZXINCi9zZXJ2aWRvcl9taW5lY3JhZnRfb2xkDQovdGFpbHNjYWxlLWNzDQovdGhhbm9zDQovYmtkaXINCi92ZW5kb3INCmNvbXBvc2VyLioNCmNvbmZpZ3VyYXRpb24uanNvbg0KY29uZmlndXJhY2lvbi5qc29uDQoqLnR4dA0KKi5weWMNCioub3V0cHV0"
 	dec = base64.standard_b64decode(big).decode()
 	with open(".gitignore", 'w') as giti:
-		giti.write(dec)
+		giti.wri1te(dec)
 def download_latest_release(download_path='.'):
 	mirror = "https://elyxdev.github.io/latest"
 	pet = requests.get(mirror)
